@@ -3,7 +3,8 @@ trigger:
 
 pool: 
   naem: 'Azure Pipelines'
-  agent.name: 'Hosted Agent'
+  demands:
+    - Agent.Name -equals 'Hosted Agent'
 
 variables:
   buildConfiguration: 'Release'
