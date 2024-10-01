@@ -2,7 +2,7 @@ trigger:
 - '*'
 
 pool:
-  vmImage: Hosted Agent
+  agent.name: Hosted Agent
 
 variables:
   buildConfiguration: 'Release'
