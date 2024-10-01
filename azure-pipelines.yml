@@ -1,7 +1,8 @@
 trigger:
 - '*'
 
-pool:
+pool: 
+  naem: 'Azure Pipelines'
   agent.name: 'Hosted Agent'
 
 variables:
