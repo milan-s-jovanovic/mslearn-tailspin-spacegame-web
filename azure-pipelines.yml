@@ -4,7 +4,7 @@ trigger:
 pool: 
   name: 'Azure Pipelines'
   demands:
-    - Agent.Name -equals 'Hosted Agent'
+    - name -equals myagent01
 
 variables:
   buildConfiguration: 'Release'
